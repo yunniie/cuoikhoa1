@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <input type="checkbox" name="" id="toggler">
+        <label for="toggler" class="fas fa-bars "></label>
+        <a href="cuoikhoa1.html" class="logo">flower<span>.</span></a>
+        <nav class="navbar">
+            <a href="./cuoikhoa1.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="products.html">Products</a>
+        </nav>
+        <div class="icons">
+            <a href="./login.html" class="fas fa-user"></a>
+            <a class="nav-link" href="#">
+                <button type="button" class="btn btn-warning transparent cart-btn">
+                    <i class="fa-solid fa-cart-shopping"></i> Cart <span class="badge badge-light">0</span>
+                </button>
+            </a>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3>fresh flowers</h3>
+            <span> natural and beautiful flowers</span>
+            <p>...</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h1 class="heading"><span>about</span>us</h1>
+        <div class="row">
+            <div class="video-container">
+                <video src="istockphoto-1401979307-640_adpp_is.mp4" loop autoplay muted></video>
+                <h3>best flower sellers</h3>
+            </div>
+        </div>
+
+        <div class="reading">
+            <h3>why choose us?</h3>
+            <p>Although it is an online sales website, we have imported items about flowers to give customers the best
+                experience.</p>
+        </div>
+        <a href="#" class="btn">learn more</a>
+    </section>
+
+    <section class="icons-container">
+
+        <div class="icons">
+            <img src="fast.png" alt>
+            <div class="info">
+                <h3>free delivery</h3>
+                <span>on all orders</span>
+
+            </div>
+        </div>
+
+        <div class="icons">
+            <img src="product-return.png" alt="">
+            <div class="info">
+                <h3>10 days returns</h3>
+                <span>moneyback garantee</span>
+
+            </div>
+        </div>
+
+        <div class="icons">
+            <img src="gift.png" alt="">
+            <div class="info">
+                <h3>offer a gifts</h3>
+                <span>on all orders</span>
+
+            </div>
+        </div>
+
+        <div class="icons">
+            <img src="shield.png" alt="">
+            <div class="info">
+                <h3>secure payments</h3>
+                <span>protected by paybal</span>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="products" id="products">
+        <h1 class="heading">latest<span>products</span></h1>
+
+        <div class="box-container">
+            <div id="main_content">
+
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h1 class="heading"> <span>contact</span></h1>
+
+        <div class="row">
+            <form action="">
+                <input type="text" placeholder="name" class="box">
+                <input type="email" placeholder="email" class="box">
+                <input type="number" placeholder="number" class="box">
+                <textarea name="" class="box" placeholder="message" id="" cols="30" rows="10"></textarea>
+                <input type="submit" value="send message" class="btn">
+            </form>
+
+            <div class="image">
+                <img src="img.avif" alt="">
+            </div>
+        </div>
+    </section>
+
+    <div class="cart-wrapper">
+        <div class="cart">
+            <h3 class="font-weight-light"><i class="fa-solid fa-cart-shopping mr-2"></i>Your Cart</h3>
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Title</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">Count</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="4">Total: $<span class="total">$100</span></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#">about</a>
+                <a href="#">products</a>
+                <a href="#">contact</a>
+            </div>
+
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#">my account</a>
+                <a href="#">my order</a>
+                <a href="#">my favorite</a>
+            </div>
+
+            <div class="box">
+                <h3>locations</h3>
+                <a href="#">Vietnam</a>
+                <a href="#">USA</a>
+                <a href="#">Japan</a>
+                <a href="#">France</a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#">123-456-789</a>
+                <a href="#">example@gmail.com</a>
+                <a href="#">vinshome central park tân cảng</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="cuoikhoa1.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+        integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+        integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
